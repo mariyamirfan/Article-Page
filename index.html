@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article</title>
+ <style>
+    /* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #ff69b4;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li input {
+  padding: 5px;
+}
+
+nav ul li button {
+  padding: 5px 10px;
+  background-color: white;
+  border: 1px solid #ff69b4;
+  color: #ff69b4;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Main Layout */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+/* Main Content */
+.main-content {
+  width: 70%;
+}
+
+.main-content h1, .main-content h2 {
+  font-family: 'Georgia', serif;
+}
+
+.main-content h1 {
+  font-size: 2em;
+  color: #444;
+}
+
+.main-content h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.main-content p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 25%;
+  background-color: #ffb6c1;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-family: 'Georgia', serif;
+  font-size: 1.2em;
+  color: #444;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+/* Footer */
+footer {
+  background-color: #ff69b4;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 0.9em;
+  margin-top: 15%;
+}
+
+ </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">OUR TEAM</a></li>
+      <li><a href="#">PROJECTS</a></li>
+      <li><a href="#">CONTACT</a></li>
+      <li>
+        <input type="text" placeholder="Search">
+        <button>Go!</button>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="main-content">
+      <h1>Article heading</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+      
+      <h2>Subsection</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+      <h2>Another subsection</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2>Related</h2>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 by mariyam. All rights reserved.</p>
+  </footer>
+</body>
+</html>
